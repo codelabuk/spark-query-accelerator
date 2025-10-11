@@ -1,0 +1,54 @@
+# Build files
+target/
+project/target/
+dist/
+out/
+build/
+
+# IDE / Editor
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and temp
+logs/
+*.log
+*.tmp
+*.bak
+*.old
+spark-warehouse/
+derby.log
+metastore_db/
+checkpoint/
+tmp/
+.temp/
+
+# Maven
+.mvn/
+.mvnw
+.mvnw.cmd
+dependency-reduced-pom.xml
+
+# BSP / Metals
+.bsp/
+.metals/
+.vscode/
+
+# Python (future)
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# Misc
+*.class
+*.out
+*.ser
+*.orig
+*.log.*
